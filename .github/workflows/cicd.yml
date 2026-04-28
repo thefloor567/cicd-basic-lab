@@ -4,7 +4,7 @@ name: CI/CD - cicd-basic-lab to mylab-bastion
 # 빈칸 1: main 브랜치 push와 수동 실행 두 가지 트리거 작성
 on:
   push:
-    branches: main
+    branches: [main]
   workflow_dispatch:
 # 빈칸 2: 같은 워크플로우/브랜치 동시 실행 시 이전 실행 취소되도록 설정
 concurrency:

@@ -47,5 +47,5 @@ jobs:
         with:
           name: ${{ steps.set-name.outputs.value }}
           # 빈칸 6: 업로드할 파일 경로 (리포 루트 기준 전체 경로)
-          path: ./target/app.jar
+          path: ./cicd-basic-lab/target/app.jar
           retention-days: 1
